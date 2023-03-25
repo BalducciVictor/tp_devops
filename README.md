@@ -1,10 +1,13 @@
 # TP_devops
+BALDUCCI Victor
+
+Seul pour ce TP j'ai joué le rôle d'intégration manager et le rôle de développeurs. 
+
+PS : Pour mettre à jour ce README au fur et à mesure de ce TP, j'ai choisi de pousser directement sur la branche main sans créer de tag.
+
 ## Installation
 
 Clonez ce dépôt de code sur votre ordinateur.
-
-Assurez-vous que vous avez les versions les plus récentes de Node.js et npm installées.
-
 Dans le répertoire du projet, exécutez la commande `npm install` pour installer toutes les dépendances du projet.
 
 ## Utilisation
@@ -26,11 +29,20 @@ Cela permet de s'assurer que toutes les fonctionnalités sont testées et valid�
 ## Contribuer
 
 Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
-- Créez une nouvelle branche pour votre fonctionnalité à partir de la branche "dev" ("main" est protegé).
+- Créez une nouvelle branche pour votre fonctionnalité à partir de la branche dev.
 - Implémentez votre fonctionnalité et testez-la.
 - Fusionnez votre branche dans la branche dev.
-- Créez une merge request pour demander à l'intégration manager de valider la fusion de votre branche dans la branche main.
+- Créez un tag pour fusionner sur la branche principale `main`
+
+## Créer un tag pour la fusion sur la branche principale
+
+Si vous souhaitez fusionner un commit spécifique sur la branche principale (`main`) de votre dépôt Git, vous pouvez créer un tag pour marquer ce commit comme étant prêt pour la fusion. Voici comment procéder :
+
+1.  Positionnez-vous sur la branche de développement (`dev`) et créez un tag pour le commit que vous souhaitez fusionner sur la branche principale. Vous pouvez utiliser la commande suivante pour créer un tag local : `git tag -a v1.0 -m "Description du tag" <commit-id>`
+2. Poussez le tag vers le dépôt distant en utilisant la commande suivante : `git push --tags`
+3.  Créez une pull request pour fusionner la branche de développement (`dev`) sur la branche principale (`main`).
+4.  Dans la description de la pull request, mentionnez le tag que vous avez créé en utilisant la syntaxe suivante : `Merge avec le tag v<numéro de version>`
 
 ## Contact
 
-Si vous avez des questions ou des préoccupations, veuillez contacter l'intégration manager.
+Si vous avez des questions ou des préoccupations, veuillez contacter BALDUCCI Victor (intégration manager).
