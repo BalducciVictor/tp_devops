@@ -1,38 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TP_devops
+## Installation
 
-## Getting Started
+Clonez ce dépôt de code sur votre ordinateur.
 
-First, run the development server:
+Assurez-vous que vous avez les versions les plus récentes de Node.js et npm installées.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Dans le répertoire du projet, exécutez la commande `npm install` pour installer toutes les dépendances du projet.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Utilisation
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Pour lancer l'application en mode développement, exécutez la commande `npm run dev`. Cela lancera l'application sur le port 3000 et rechargera automatiquement le serveur lors des changements de code.
+ 
+Pour lancer l'application en mode production, exécutez la commande `npm start`. Cela lancera l'application sur le port 8080.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Processus de développement
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Ce dépôt utilise une méthode de gestion de branches appelée "Git flow" qui permet de séparer le développement et la production et de faciliter la collaboration entre les membres de l'équipe.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Le dépôt contient deux branches principales : main et dev. La branche main est utilisée pour la production, c'est-à-dire la version stable et déployée de l'application. La branche dev est utilisée pour le développement, c'est-à-dire la branche principale pour la collaboration des développeurs.
 
-## Learn More
+Dans ce processus de travail, un intégrateur (appelé intégration manager) est en charge de valider les merge request de la branche dev vers la branche main. Ainsi, le développeur crée une nouvelle branche pour chaque fonctionnalité qu'il implémente, travaille sur cette branche et la fusionne ensuite dans la branche dev une fois qu'il a terminé. Il crée ensuite une merge request pour demander à l'intégration manager de valider la fusion de sa branche dans la branche main.
 
-To learn more about Next.js, take a look at the following resources:
+Cela permet de s'assurer que toutes les fonctionnalités sont testées et validées avant d'être déployées en production. De plus, cela permet de séparer les développements en cours de la version stable en production, ce qui permet d'isoler les bugs et les problèmes éventuels.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
+- Créez une nouvelle branche pour votre fonctionnalité à partir de la branche dev.
+- Implémentez votre fonctionnalité et testez-la.
+- Fusionnez votre branche dans la branche dev.
+- Créez une merge request pour demander à l'intégration manager de valider la fusion de votre branche dans la branche main.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Si vous avez des questions ou des préoccupations, veuillez contacter l'intégration manager.
