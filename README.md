@@ -46,3 +46,5 @@ Si vous souhaitez fusionner un commit spécifique sur la branche principale (`ma
 ## Contact
 
 Si vous avez des questions ou des préoccupations, veuillez contacter BALDUCCI Victor (intégration manager).
+
+test
