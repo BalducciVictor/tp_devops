@@ -26,7 +26,7 @@ Cela permet de s'assurer que toutes les fonctionnalités sont testées et valid�
 ## Contribuer
 
 Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
-- Créez une nouvelle branche pour votre fonctionnalité à partir de la branche dev.
+- Créez une nouvelle branche pour votre fonctionnalité à partir de la branche "dev" ("main" est protegé).
 - Implémentez votre fonctionnalité et testez-la.
 - Fusionnez votre branche dans la branche dev.
 - Créez une merge request pour demander à l'intégration manager de valider la fusion de votre branche dans la branche main.
