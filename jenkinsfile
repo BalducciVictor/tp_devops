@@ -8,6 +8,14 @@ pipeline {
       }
     }
 
+    stages {
+        stage('Test') {
+            steps {
+                echo 'test'
+            }
+        }
+    }
+
     stage('Build') {
       when {
         branch 'main'
