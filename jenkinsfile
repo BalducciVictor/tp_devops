@@ -8,11 +8,9 @@ pipeline {
       }
     }
 
-    stages {
-        stage('Test') {
-            steps {
-                echo 'test'
-            }
+    stage('Test') {
+        steps {
+            echo 'test'
         }
     }
 
